@@ -1,68 +1,17 @@
-.cabeçalho{background-color: grey;
-padding: 20px;}
+body{font-size: 20px; }
 
-.caixa{position: relative;
-width: 940px;
-margin: 0 auto;}
+.principal{text-align: center;
+background-color: gray;}
 
+.alinhar{text-align: center;}
 
-nav{position: absolute;
-top: 110px;
-right: 0;}
+.destaque{color: red;}
 
-nav li{display: inline;
-margin: 0 0 0 15px;}
+.imagem{width: 100%;}
 
-nav a {text-transform: uppercase;
-color: blak;
-font-weight: bold;
-font-size: 22px;
-text-decoration: none ;}
+.lista{ display: inline-block;
+vertical-align: tops;}
 
-nav a:hover {
-    color:blueviolet;
-    text-decoration: underline;
-}
+.imagem_beneficio{width: 50%;}
 
-.produtos{width: 940px;
-    margin:0 auto;}
-
-.produtos li {display: inline-block;
-            text-align: center;
-            width: 25%;
-            vertical-align: top;
-            margin: 0 1.5%;
-        padding: 30px 20px;
-        box-sizing: border-box;
-        border: 2px solid black;
-        border-radius: 10px;
-     }
-
-.produtos li:hover {border-color: yellowgreen;}
-
-.produtos li:active {border-color: orangered;}
-
-.produtos li:hover h2{
-     font-size: 40px;
-}
-
-.descricao{ font-size: 10px;}
-
-          .preço{ font-size: 22px;
-        font-weight: bold;
-    margin-top: 10px}
-
-
-.produtos{width: 940px;
-margin: 0 auto;
-padding: 50px 0;}
-
-.produtos li {display: inline-block;
-text-align: center;
-width: 30px;
-vertical-align: top;}
-
-footer{ text-align: center;
-      background-color: url("bg.jpg")}
-
-.rodape{ color: aliceblue}
+.titulo-principal{padding-left: 20px;}
